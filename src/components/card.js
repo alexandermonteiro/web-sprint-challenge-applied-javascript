@@ -10,22 +10,23 @@ const Card = (article) => {
 
   cardDiv.className = "card";
   headline.className = "headline";
-  authorPhoto.className = "author";
+  author.className = "author";
   image.className = "img-container";
 
   headline.textContent = article.headline;
-  authorPhoto.textContent = article.authorPhoto;
-  authorName.src = `${article.authorPhoto}`;
+  authorName.textContent = article.authorName;
+  authorPhoto.src = `${article.authorPhoto}`;
 
   cardDiv.appendChild(headline);
   cardDiv.appendChild(author);
-  cardDiv.appendChild(image);
-  cardDiv.appendChild(authorPhoto);
-  cardDiv.appendChild(authorName);
+  author.appendChild(image);
+  image.appendChild(authorPhoto);
+  author.appendChild(authorName);
 
   cardDiv.addEventListener("click", () => {
     console.log(headline);
   });
+
   return cardDiv;
 
   // TASK 5

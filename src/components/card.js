@@ -69,7 +69,7 @@ const cardAppender = (selector) => {
   //   });
   const array = ["javascript", "bootstrap", "technology", "jquery", "node"];
   axios
-    .get(`http://localhost:5000/api/articles`)
+    .get(`http://localhost:5001/api/articles`)
     .then((res) => {
       console.log("js", res.data.articles.javascript);
 

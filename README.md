@@ -36,7 +36,7 @@ In meeting the minimum viable product (MVP) specifications listed below, your pr
 **Steps Required for MVP:**
 
 - [x ] Steps 1 and 2 are explained inside the `src/components/header.js` file.
-- [ ] Steps 3 and 4 are explained inside the `src/components/tabs.js` file.
+- [ x] Steps 3 and 4 are explained inside the `src/components/tabs.js` file.
 - [ ] Steps 5 and 6 are explained inside the `src/components/card.js` file.
 
 **Important Notes:**
@@ -50,17 +50,31 @@ In meeting the minimum viable product (MVP) specifications listed below, your pr
 
 ## Submission format
 
-- [ ] Submit via Codegrade by committing and pushing any new changes to the _main_ branch.
-- [ ] Check Codegrade for automated feedback.
-- [ ] Check Codegrade in the days following the Sprint Challenge for reviewer feedback.
-- [ ] Any changes pushed after the deadline will not receive any feedback.
+- [ x] Submit via Codegrade by committing and pushing any new changes to the _main_ branch.
+- [ x] Check Codegrade for automated feedback.
+- [x ] Check Codegrade in the days following the Sprint Challenge for reviewer feedback.
+- [x ] Any changes pushed after the deadline will not receive any feedback.
 
 ## Interview Questions
 
 Demonstrate your understanding of this week's concepts by answering the following questions:
 
 1. What is the DOM?
+
+   DOM is an application programming interface (API) for HTML and XML documents. It defines the logical structure of documents and the way a document is accessed and manipulated.
+
 2. What is an event?
+
+   Every user interaction with a site is an event, for example a click.
+
 3. What is an event listener?
+
+It is a method that takes to arguments, first the event to listen for and, second, the callback to fire when that event is triggered.
+
 4. Why would we convert a NodeList into an Array?
+
+Because we can take advantage of ALL the ES6 array methods we can convert the NodeList to a real Array using Array.from().
+
 5. What is a component?
+
+Component is an independent and reusable bits of code.

@@ -10,7 +10,7 @@ const Header = (title, date, temp) => {
 
   titleH1.textContent = `${title}`;
   dateSpan.textContent = `${date}`;
-  tempF.textContent = `${temp} °F`;
+  tempF.textContent = `${temp} °git add .F`;
 
   header.appendChild(dateSpan);
   header.appendChild(titleH1);

@@ -10,8 +10,8 @@ You are not allowed to collaborate during the sprint challenge.
 
 ## Project Set Up
 
-- [ ] Fork and clone the repo. Delete your old fork from Github first if you are repeating this Unit.
-- [ ] Open the assignment in Canvas and click on the "Set up git" option.
+- [ x] Fork and clone the repo. Delete your old fork from Github first if you are repeating this Unit.
+- [ x] Open the assignment in Canvas and click on the "Set up git" option.
 - [ ] Push your first commit: `git commit --allow-empty -m "first commit" && git push`.
 - [ ] Check to see that Codegrade has accepted your git submission.
 
@@ -50,7 +50,7 @@ In meeting the minimum viable product (MVP) specifications listed below, your pr
 
 ## Submission format
 
-- [ ] Submit via Codegrade by committing and pushing any new changes to the *main* branch.
+- [ ] Submit via Codegrade by committing and pushing any new changes to the _main_ branch.
 - [ ] Check Codegrade for automated feedback.
 - [ ] Check Codegrade in the days following the Sprint Challenge for reviewer feedback.
 - [ ] Any changes pushed after the deadline will not receive any feedback.

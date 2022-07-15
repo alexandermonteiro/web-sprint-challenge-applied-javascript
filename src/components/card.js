@@ -71,8 +71,6 @@ const cardAppender = (selector) => {
   axios
     .get(`http://localhost:5001/api/articles`)
     .then((res) => {
-      console.log("js", res.data.articles.javascript);
-
       array.forEach((topic) => {
         res.data.articles[topic].forEach((el) => {
           const newDiv = Card(el);

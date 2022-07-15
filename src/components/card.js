@@ -50,6 +50,40 @@ const Card = (article) => {
 };
 
 const cardAppender = (selector) => {
+  // const array = ["javascript", "boots", "technology", "jquery", "node"];
+
+  // axios
+  //   .get(`http://localhost:5001/api/articles`)
+  //   .then((res) => {
+  //     console.log(res.data.articles.javascript);
+
+  //     array.forEach((topic) => {
+  //       res.data.articles[topic].forEach((el) => {
+  //         const newDiv = Card(el);
+  //         document.querySelector(selector).appendChild(newDiv);
+  //       });
+  //     });
+  //   })
+  //   .catch((err) => {
+  //     console.log(err);
+  //   });
+  const array = ["javascript", "bootstrap", "technology", "jquery", "node"];
+  axios
+    .get(`http://localhost:5000/api/articles`)
+    .then((res) => {
+      console.log("js", res.data.articles.javascript);
+
+      array.forEach((topic) => {
+        res.data.articles[topic].forEach((el) => {
+          const newDiv = Card(el);
+          document.querySelector(selector).appendChild(newDiv);
+        });
+      });
+    })
+    .catch((err) => {
+      console.log(err);
+    });
+
   // TASK 6
   // ---------------------
   // Implement this function that takes a css selector as its only argument.

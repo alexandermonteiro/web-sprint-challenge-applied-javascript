@@ -37,9 +37,6 @@ const tabsAppender = (selector) => {
       const array = res.data.topics;
       const tab = document.querySelector(selector);
       tab.appendChild(Tabs(array));
-      console.log("res", res);
-      console.log("res.data", res.data);
-      console.log("res.data.topics", res.data.topics);
     })
     .catch((error) => {
       console.log(error);
